@@ -32,9 +32,9 @@ function App() {
     contact.name.toLowerCase().includes(filterValue.toLowerCase()),
   );
 
-  const handleClick = contactName => {
-    console.log('name: ', contactName);
-  };
+  // const handleClick = contactName => {
+  //   console.log('name: ', contactName);
+  // };
 
   const onAddContact = contact => {
     const finalContact = {
