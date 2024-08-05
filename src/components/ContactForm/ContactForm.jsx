@@ -64,11 +64,7 @@ const ContactForm = ({ onAddContact }) => {
             />
           </label>
 
-          <button
-            disabled={Object.keys(errors).length > 0}
-            className={styles.submitBtn}
-            type="submit"
-          >
+          <button className={styles.submitBtn} type="submit">
             Add contact
           </button>
         </Form>
